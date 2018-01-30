@@ -1,0 +1,24 @@
+{
+  "name": "svg-is-awesome",
+  "version": "1.0.0",
+  "description": "Just for training skills in SVG.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipefanucchi/svg-is-awesome.git"
+  },
+  "keywords": [
+    "svg",
+    "css",
+    "xml"
+  ],
+  "author": "Felipe de Lima Fanucchi <felipefanucchi2010@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felipefanucchi/svg-is-awesome/issues"
+  },
+  "homepage": "https://github.com/felipefanucchi/svg-is-awesome#readme"
+}
