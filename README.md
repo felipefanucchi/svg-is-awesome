@@ -12,6 +12,7 @@ You just need a browser to run all SVG's.
 
 ```
 Google Chrome or even IE8
+```
 
 ## Authors
 
