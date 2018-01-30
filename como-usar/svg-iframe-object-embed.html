@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <title>SVG como iframe/object/embed</title>
+</head>
+
+<body>
+    <style>
+        iframe,
+        object,
+        embed{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+    <h1>SVG como iframe/object/embed</h1>
+    <h4>iframe</h4>
+    <iframe src="img/alarm-clock.svg" frameborder="0"></iframe>
+    <h4>object</h4>
+    <object data="img/audio-file.svg" type=""></object>
+    <h4>embed</h4>
+    <embed src="img/assistant.svg" type="">
+    <div class="pros-con">
+        <p class="bad">Browsers tratam de forma diferente.</p>
+        <p class="bad">Nao podemos estilizar o svg diretamente.</p>
+        <p class="bad">Lentos ao carregamento.</p>
+    </div>
+</body>
+
+</html>
