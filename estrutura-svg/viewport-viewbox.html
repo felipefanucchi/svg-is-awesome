@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <title>SVG Viewport e Viewbox</title>
+</head>
+
+<body>
+    <h1>Viewport e Viewbox</h1>
+    <svg width="300" height="100" viewBox="0 0 600 200" style="border: 1px solid red">
+        <circle r="50" cx="300" cy="100">
+    </svg>
+    <h4>O que é viewport e viewbox?</h4>
+    <p><b>Viewport</b> é o tamanho definido pela altura e largura, em que o svg irá ocupar na tela.</p>
+
+    <p><b>ViewBox</b> podemos dizer que é a densidade de pixels que irá conter dentro da nossa viewport, exemplo.</p>
+    <p>Se o número da nossa viewbox for menor que nossa viewport consequentemente a densidade interna da nossa viewport será menor, ou seja, tudo ocupará um espaço maior.</p>
+    <p>Caso a nossa viewbox seja maior que nossa viewport, será o contrário, tudo la dentro será menor.</p>
+    <p>A grosso modo, podemos dizer que funciona como uma lupa.</p>
+    <p>Além do mais, que, nossa viewbox recebe no total d 4 parâmetros, os 2 primeiros é o pos. do eixo X e Y, os demais sao referentes ao tamanho da viewbox</p>
+</body>
+
+</html>

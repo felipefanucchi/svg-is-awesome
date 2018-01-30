@@ -1,0 +1,20 @@
+p {
+    margin-bottom: 15px;
+    font-size: 1.9rem;
+}
+
+.pros-con {
+    padding-top: 100px;
+}
+
+.good {
+    color: green
+}
+
+.medium {
+    color: orange;
+}
+
+.bad {
+    color: red;
+}

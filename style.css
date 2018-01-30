@@ -2,32 +2,10 @@
 * {
     font-family: 'Lato', sans-serif;
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    text-transform: uppercase;
 }
 
 body{
     padding: 30px;
 }
 
-p{
-    margin-bottom: 15px;
-    font-size: 1.9rem;
-}
-
-.pros-con{
-    padding-top:100px;
-}
-
-.good{
-    color:green
-}
-
-.medium{
-    color: orange;
-}
-
-.bad{
-    color: red;
-}
