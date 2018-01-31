@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../style.css">
+    <title>Formas Básicas</title>
+</head>
+<style>
+    svg{
+        border: 1px solid red;
+    }
+</style>
+<body>
+    <h1>Formas Básicas</h1>
+
+    <h2>Rect</h2>
+    <svg>
+        <rect x="0" y="0" width="100" height="100">
+    </svg>
+
+    <h2>Circle</h2>
+    <svg>
+        <circle r="25" cx="70" cy="70">
+    </svg>
+
+    <h2>Ellipse</h2>
+    <svg>
+        <ellipse rx="25" ry="50" cx="100" cy="50"/>
+    </svg>
+
+    <h2>Line</h2>
+    <svg>
+        <line x1="10" y1="20" x2="100" y2="120" stroke="#000" stroke-width="4"/>
+    </svg>
+
+    <h2>Polyline</h2>
+    <svg>
+        <polyline points="0, 40, 40, 40 40, 80 80, 80 80, 120 120, 120 120, 160 160, 160" fill="transparent" stroke="#000" stroke-width="4"/>
+    </svg>
+
+    <h2>Polygon</h2>
+    <svg>
+        <polygon points="20,20 40,20 30,40" stroke="#000" stroke-width="4"/>
+    </svg>
+
+    <svg>
+        <polygon points="20,20 40,20 40,40 20,40" stroke="#000" stroke-width="4" />
+    </svg>
+
+    <svg>
+        <polygon points="50,50 100,10 150,50 100,90" stroke="#000" stroke-width="4" />
+    </svg>
+
+    <h2>Path</h2>
+    <svg>
+        <path
+            stroke="#000"
+            stroke-width="4"
+            fill="none"
+            d="M 75,50 L 50,100 A 30,50 0 0,1 100,100 Z"
+        />
+    </svg>
+</body>
+</html>
