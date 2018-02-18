@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peso das propriedades</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <h2>Peso das propriedades</h2>
+    <div style="display: inline-block; float:left">
+        <ul>
+            <li>User Agent Style</li>
+            <li>Presentation Attributes</li>
+            <li>External Styles</li>
+            <li>Internal ""</li>
+            <li>Inline ""</li>
+            <li>Animation, through some js lib, change color after some action, per example.</li>
+            <li>Override (!important)</li>
+            <li>Computed Styles, when treating the SVG as an img, object or even an iframe</li>
+        </ul>
+    </div>
+    <div>
+        <svg width="300" height="300" viewBox="0 0 300 300">
+            <polygon id="star-external" points="279.1,160.8 195.2,193.3 174.4,280.8   117.6,211.1 27.9,218.3 76.7,142.7 42.1,59.6 129.1,82.7 197.4,24.1 202.3,114 "/>        
+        </svg>
+    </div>
+</body>
+
+</html>

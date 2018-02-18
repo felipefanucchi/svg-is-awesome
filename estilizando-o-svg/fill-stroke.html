@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fill e Stroke</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h2>Fill e Stroke</h2>
+
+    <p><strong>Fill</strong>, responsável pelo preenchimento do nosso desenho</p>
+    <p><strong>Stroke</strong>, reponsável pelo contorno.</p>
+
+    <style>
+        .circle{
+            stroke: #000;
+            stroke-width: 5;
+        }
+
+        .circle-1{ 
+            fill: red; 
+            stroke-dasharray: 400;
+            stroke-dashoffset: 100;
+        }
+    </style>
+
+    <svg width="500" height="150">
+        <circle class="circle circle-1" r="55" cx="200" cy="70" />
+    </svg>
+
+    
+</body>
+</html>
